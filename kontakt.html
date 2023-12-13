@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- sætter det så det kan være responsivt og kan skalleres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit Portfolio</title>
+    <!-- css document -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="xx.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1a674daea2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- check box for at lave 2 stadier, klikket og ikke klikket -->
+      <input id="nav-toggle" type="checkbox">
+      <!-- Logo i venstre hjørne -->
+      <div class="logo">STUDIO<strong>HAYCOCK</strong></div>
+      <!-- hamburger bar icon (3 linjer) -->
+      <label for="nav-toggle" class="iconhaycock">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </label>
+      <!-- Navbar links -->
+      <!-- href= linker siderne sammen, ul= unordered list -->
+      <ul class="links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="ommig.html">Om mig</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <main class="leaves">
+      <form>
+        <h3 class="h3-text">Klar til et samarbejde?</h3>
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+    
+        <label for="message">Hvad har du på hjertet?:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <button type="submit">SEND</button>
+        <h3 class="h3-text">Du også velkommen til at kontakte mig her:</h3>
+        <p class="tlf">Tlf: (+45) 71 23 12 30</p>
+        <p class="mail">Mail: freyajoyhaycock@gmail.com</p>
+    </form>      
+    </main>
+    <!-- Min footer -->
+    <footer>
+      <div class="footer-content">
+      <h3>Kan også kontaktes her</h3>
+      <div class="socials">
+        <a href="https://www.facebook.com/freyajoyhaycock.lyck/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/freya-joy-haycock-5386011aa/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <ul class="list1">
+        <li>
+          <a href="#">Forside</a>
+        </li>
+        <li>
+          <a href="ommig.html">Om mig</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+       <div class="bottom-bar">
+        <p>&copy; 2023 Studio Haycock. All right reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+

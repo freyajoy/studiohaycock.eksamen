@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- sætter det så det kan være responsivt og kan skalleres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit Portfolio</title>
+    <!-- css document -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font og icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a674daea2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- check box for at lave 2 stadier, klikket og ikke klikket -->
+      <input id="nav-toggle" type="checkbox">
+      <!-- Logo i venstre hjørne -->
+      <div class="logo">STUDIO<strong>HAYCOCK</strong></div>
+      <!-- hamburger bar icon (3 linjer) -->
+      <label for="nav-toggle" class="iconhaycock">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <!-- Navbar links -->
+      <!-- href= linker siderne sammen, ul= unordered list -->
+      <ul class="links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="ommig.html">Om mig</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <!-- Velkommen segment, 2 overskrifter og en paragraf -->
+    <main>
+      <section class="velkommen-row">
+        <div class="left">
+          <div class="content">
+          <div class="box">
+            <h1>VELKOMMEN</h1>
+            <h2>TIL MIT PORTFOLIO</h2>
+            <p>Hej, jeg hedder Freya Joy og studerer multimediedesign på UCL Erhvervsakademi i Odense. Jeg er passioneret omkring at skabe funktionelle men også visuelt tiltalende løsninger, med fokus på digitalt design og brugeroplevelsen. Udover mine studier kan jeg godt lide at udforske nye designværktøjer og skabe visuelt tiltalende design. 
+            <br><br>Kom og udforsk mit kreative univers! Klik nedenfor for at se mit portfolio og opdag, hvordan jeg bringer mine ideer til live gennem multimediedesign. 
+            </p>
+          </div>
+          <a href="portfolio.html" class="cta"> Portfolio</a>
+        </div>
+          </div>
+        <!-- Cartoon billece -->
+          <div class="right">
+          <img src="images/forsidebib1.png" alt="freyajoyhaycock-billede" class="imgcartoon">
+        </div>
+      </section>
+    </main>
+    <!-- Min footer -->
+    <footer>
+      <div class="footer-content">
+      <h3>Kan også kontaktes her</h3>
+      <div class="socials">
+        <a href="https://www.facebook.com/freyajoyhaycock.lyck/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/freya-joy-haycock-5386011aa/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+      <ul class="list1">
+        <li>
+          <a href="#">Forside</a>
+        </li>
+        <li>
+          <a href="ommig.html">Om mig</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+       <div class="bottom-bar">
+        <p>&copy; 2023 Studio Haycock. All right reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
