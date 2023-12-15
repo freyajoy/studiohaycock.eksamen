@@ -467,7 +467,7 @@ margin: auto;
     font-size: 18px;
     color: rgb(255, 255, 255);
     margin-bottom: 35px;
-    text-align: left;
+    text-align: center;
     justify-content: center;
 }
 
@@ -706,7 +706,7 @@ text-align: center;
 @media screen and (max-width: 889px) {
 
  .heading-ommig h1{
-    margin-top:0px;
+    margin-top:85px;
  }
     nav .logo{
         float: none;
@@ -761,10 +761,7 @@ text-align: center;
 .img-cartoon{
     max-width: 300px;
 }
- .heading-ommig{
-    padding-top: 0;
-    height: 100vh;
-}
+
 .heading-ommig h1{
     font-size: 36px;
 
