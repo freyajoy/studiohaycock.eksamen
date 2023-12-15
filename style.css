@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Gælder hele hjemmesiden */
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +9,11 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
+footer{
+    margin-top: 110px;
+}
+
 
 .left{
     grid-area: left1;
@@ -638,6 +645,10 @@ text-align: center;
     margin-top: 35px;
  }
  @media screen and (max-width: 1377px) {
+
+    footer{
+        margin-top: 280px;
+    }
     .image-grid {
         grid-template-columns: 1fr;
     }
